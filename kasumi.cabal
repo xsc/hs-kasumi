@@ -1,0 +1,19 @@
+Name:           hs-kasumi
+Version:        0.1.0
+Cabal-Version:  >= 1.9.2
+Author:         Dominik Vinan, Yannick Scherer
+Homepage:       https://github.com/xsc/hs-kasumi
+Build-Type:     Simple
+
+library
+    build-depends: base
+    exposed-modules: Kasumi
+    hs-source-dirs: src
+
+executable kasumi
+    main-is: Main.hs
+    other-modules: Kasumi
+    build-depends: base
+    hs-source-dirs: src
+
+    
